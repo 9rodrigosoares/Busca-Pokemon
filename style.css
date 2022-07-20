@@ -67,10 +67,10 @@ h1 {
   margin: 5px 0;
 }
 
-.group-form input[type=submit] {
-  background-color: #1B356E;
+.group-form input[type='submit'] {
+  background-color: #1b356e;
   font-weight: 600;
-  color: #FFF;
+  color: #fff;
   font-size: 1rem;
   letter-spacing: 1px;
   cursor: pointer;
@@ -96,6 +96,13 @@ h1 {
   color: #333;
 }
 
-@media (min-width: 480px) {
-
+@media (max-width: 449px) {
+  .container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 300px;
+    min-height: 200px;
+  }
 }
